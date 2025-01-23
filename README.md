@@ -22,7 +22,7 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
     const countdownElement = document.getElementById("countdown");
 
     if (month === 2) { // March is month 2 (0 = Jan, 1 = Feb, etc.)
-      responseElement.textContent = "Yes, it's March! See you soon :) ";
+      responseElement.textContent = "Yes, it's March! See you soon? :) ";
       responseElement.className = "yes";
     } else {
       const nextMarch = new Date(today.getFullYear(), 2, 1);
@@ -30,7 +30,7 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
         nextMarch.setFullYear(today.getFullYear() + 1);
       }
       const diff = Math.ceil((nextMarch - today) / (1000 * 60 * 60 * 24));
-      responseElement.textContent = "Not yet - Annoying!";
+      responseElement.textContent = "Not Yet...";
       responseElement.className = "no";
       countdownElement.textContent = `Only ${diff} day(s) left until March!`;
     }
