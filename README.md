@@ -1,9 +1,8 @@
 # IIMY
-I'm not as smart as this appears, chatGPT helped. See you soon xx
+I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
 
 
 
-      <!DOCTYPE html>
 <html>
 <head>
   <title>Is It March Yet?</title>
