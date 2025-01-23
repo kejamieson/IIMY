@@ -1,7 +1,7 @@
 # IIMY
-A tool for checking whether it's March yet
+I'm not as smart as this appears, chatGPT helped. See you soon xx
 
-<!DOCTYPE html>
+
 <html>
 <head>
   <title>Is It March Yet?</title>
