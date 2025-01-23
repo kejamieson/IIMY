@@ -2,12 +2,11 @@
 I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
 
 
-
 <html>
 <head>
   <title>Is It March Yet?</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin-top: 20%; }
+    body { font-family: Monotype Corsiva, sans-serif; text-align: center; margin-top: 20%; }
     .yes { color: green; font-size: 2em; }
     .no { color: red; font-size: 2em; }
     .countdown { font-size: 1.2em; margin-top: 10px; }
@@ -31,7 +30,7 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
         nextMarch.setFullYear(today.getFullYear() + 1);
       }
       const diff = Math.ceil((nextMarch - today) / (1000 * 60 * 60 * 24));
-      responseElement.textContent = "Not yet";
+      responseElement.textContent = "Not yet - Annoying!";
       responseElement.className = "no";
       countdownElement.textContent = `Only ${diff} day(s) left until March!`;
     }
