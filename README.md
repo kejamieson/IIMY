@@ -23,17 +23,95 @@ I'm not as smart as this appears, chatGPT helped. See you soon xx
       font-size: 1.2em;
       margin-top: 10px;
     }
-    .penguin {
-      margin-top: 20px;
-      width: 150px;
-      animation: spin 3s linear infinite;
-    }
-    @keyframes spin {
-      0% {
-        transform: rotate(0deg);
+ <html>
+  <head>
+    <style>
+      h1 {
+        text-align: center;
+        color: blueviolet;
       }
-      100% {
-        transform: rotate(360deg);
+
+      h2 {
+        text-align: center;
+        border: 1px solid blueviolet;
+        padding: 15px;
+        border-radius: 10px;
+      }
+
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+
+      p {
+        font-size: 13px;
+        line-height: 1.5;
+      }
+
+      button {
+        width: 100%;
+        background: blueviolet;
+        border: none;
+        padding: 15px;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+        border-radius: 30px;
+        font-size: 20px;
+        color: white;
+        margin: 20px 0;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      🐧 Penguins
+    </h1>
+    <h2>
+      Birds
+    </h2>
+    <img
+      src="https://c402277.ssl.cf1.rackcdn.com/photos/18435/images/hero_full/Medium_WW267491.jpg?1578425217"
+      alt=""
+    />
+    <p>
+      Penguins are flightless seabirds that live almost exclusively below the
+      equator. Some island-dwellers can be found in warmer climates, but
+      most—including emperor, adélie, chinstrap, and gentoo penguins—reside in
+      and around icy Antarctica.
+      <br />
+      <br />
+      <a href="https://en.wikipedia.org/wiki/Penguin">
+        Learn more on Wikipedia
+      </a>
+    </p>
+    <button>
+      Make a donation
+    </button>
+    <footer>
+      Coded by 👩‍💻
+      <a href="https://www.shecodes.io">
+        SheCodes
+      </a>
+    </footer>
+    <script>
+      function subscribe() {
+        let name = prompt("What is your name?");
+        prompt("What is your email address?");
+
+        alert(
+          `Thanks ${name} for your interest, we'll be in touch! Meanwhile, wash your keyboard 🐧`
+        );
+      }
+
+      let button = document.querySelector("button");
+      button.addEventListener("click", subscribe);
+    </script>
+  </body>
+</html>
       }
     }
   </style>
