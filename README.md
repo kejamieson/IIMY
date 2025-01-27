@@ -101,12 +101,7 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
 </head>
 <body>
 
-  <div id="flag">
-    <div class="stripe blue"></div>
-    <div class="stripe black"></div>
-    <div class="stripe white"></div>
-  </div>
-<html lang="en">
+ <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -131,12 +126,14 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
     }
 
     .bracelet-text span {
-      margin: 0 5px;
-      padding: 10px;
-      border-radius: 12px;
-      background-color: #FF66B2; /* Pink beads */
+      margin: 0 10px;
+      padding: 20px;
+      border-radius: 50%; /* Makes the beads circular */
+      background-color: #FF66B2; /* Default pink color for beads */
       color: white;
       text-transform: uppercase;
+      display: inline-block;
+      text-align: center;
     }
 
     .bracelet-text .james {
@@ -172,6 +169,6 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
   </div>
 
 </body>
-</body>
 </html>
+
 
