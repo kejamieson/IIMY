@@ -37,3 +37,15 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
   </script>
 </body>
 </html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estonian Flag Snowfall</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="snow-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
