@@ -39,13 +39,75 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estonian Flag Snowfall</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estonian Flag Spiral Effect</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      background-color: black;
+    }
+
+    #flag {
+      width: 300px;
+      height: 200px;
+      position: absolute;
+      transform-origin: center;
+      animation: spiral 5s ease-out forwards, disappear 1s 5s forwards;
+    }
+
+    .stripe {
+      width: 100%;
+      height: 33.33%;
+    }
+
+    .blue {
+      background-color: #0072CE;
+    }
+
+    .black {
+      background-color: #000000;
+    }
+
+    .white {
+      background-color: #FFFFFF;
+    }
+
+    @keyframes spiral {
+      0% {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(0) rotate(1440deg);
+        opacity: 0;
+      }
+    }
+
+    @keyframes disappear {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div id="snow-container"></div>
-    <script src="script.js"></script>
+
+  <div id="flag">
+    <div class="stripe blue"></div>
+    <div class="stripe black"></div>
+    <div class="stripe white"></div>
+  </div>
+
 </body>
+</html>
 </html>
