@@ -72,7 +72,7 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
     }
 
     .black {
-      background-color: #000000;
+      background-color: #FFFFFF;
     }
 
     .white {
@@ -110,4 +110,4 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
 
 </body>
 </html>
-</html>
+
