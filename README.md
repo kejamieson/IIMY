@@ -106,7 +106,72 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
     <div class="stripe black"></div>
     <div class="stripe white"></div>
   </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello James - Friendship Bracelets</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      font-family: 'Arial', sans-serif;
+    }
 
+    .bracelet-text {
+      font-size: 4rem;
+      font-weight: bold;
+      color: #000;
+      display: flex;
+      align-items: center;
+    }
+
+    .bracelet-text span {
+      margin: 0 5px;
+      padding: 10px;
+      border-radius: 12px;
+      background-color: #FF66B2; /* Pink beads */
+      color: white;
+      text-transform: uppercase;
+    }
+
+    .bracelet-text .james {
+      background-color: #FF3366; /* Slightly darker pink for 'james' */
+    }
+
+    .bracelet-text .hello {
+      background-color: #FF66B2; /* Lighter pink for 'hello' */
+    }
+
+    .bracelet-text span:nth-child(odd) {
+      background-color: #FFD700; /* Yellow beads for odd positions */
+    }
+
+    .bracelet-text span:nth-child(even) {
+      background-color: #66CCFF; /* Light blue beads for even positions */
+    }
+
+    .bracelet-text span:first-child {
+      background-color: #FF3366; /* Special color for the first bead */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bracelet-text">
+    <span class="hello">hello</span>
+    <span>J</span>
+    <span>a</span>
+    <span>m</span>
+    <span>e</span>
+    <span>s</span>
+  </div>
+
+</body>
 </body>
 </html>
 
