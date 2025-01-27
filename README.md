@@ -100,6 +100,8 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
   </style>
 </head>
 <body>
+</body>
+</html>
 
  <html lang="en">
 <head>
