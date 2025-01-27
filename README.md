@@ -46,12 +46,11 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
     body {
       margin: 0;
       height: 100vh;
-      background-color: #f0f0f0;
+      background-color: white; /* Keep background white */
       display: flex;
       justify-content: center;
       align-items: center;
       overflow: hidden;
-      background-color: black;
     }
 
     #flag {
@@ -72,7 +71,7 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
     }
 
     .black {
-      background-color: #FFFFFF;
+      background-color: #000000;
     }
 
     .white {
