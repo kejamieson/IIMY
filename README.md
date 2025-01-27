@@ -36,7 +36,7 @@ I'm not as smart as this appears, despite my myspace era - chatGPT helped xx
     }
   </script>
 </body>
-</html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
